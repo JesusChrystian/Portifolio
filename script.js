@@ -17,22 +17,3 @@ function relogio() {
     setTimeout(relogio, 1000);
 }
 relogio();
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Referência para o link Contato
-    const contatoLink = document.getElementById("contato-link");
-    const contatoFormulario = document.getElementById("contato-formulario");
-
-    // Adiciona um evento de clique no link Contato
-    contatoLink.addEventListener("click", function(event) {
-        event.preventDefault(); // Evita que o link redirecione a página
-
-        // Alterna a visibilidade do formulário
-        if (contatoFormulario.style.display === "none") {
-            contatoFormulario.style.display = "block";
-        } else {
-            contatoFormulario.style.display = "none";
-        }
-    });
-});
-
