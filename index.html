@@ -1,121 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Sedan+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>AWV tecnologia</title>
+    <title>Portfólio AWV</title>
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="pt-br">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Sedan+SC&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-        <title>Portifolio AWV</title>
-    </head>
-
-    <body>
-        <header>
-            <div class="interface">
-                <div class="logo">
-                    <a href="#">
-                        <img src="./src/Assets/LOGO-PRETO 1.svg" alt="Logo" class="logo">
-                    </a>
-                </div>
-                <nav class="menu-desktop">
-                    <ul>
-                        <li><a href="./Index.html">Sobre</a></li>
-                        <li><a href="#Formacao">Formação</a></li>
-                        <li><a href="#Portifolio">Portifolio</a></li>
-                        <li><a href="#" id="contato-link">Contato</a></li>
-                    </ul>
-                </nav>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#" class="logo">
+                    <img src="./src/Assets/LOGO-PRETO 1.svg" alt="Logo" class="logo">
+                </a>
             </div>
-            </div><!--Interface--->
-        </header>
-        <div id="Sobre">
-            <div class="content">
-                <aside class="quemSou">
-                    <img src="./src/Assets/eu.svg" alt="Minha Foto de perfil" class="foto-perfil" width="200px">
-                    <h1 class="hero-title">Welington Veiga</h1>
-                    <p class="hero-text">Desenvolvedor Web</p>
-                </aside>
-                <section id="Sobre">
-            </div>
-            <p>
-                Desenvolvedor em Transição de Carreira
-            </p>
-            <p> Estudante de Análise e Desenvolvimento de Sistemas na Uninter </p>
-
-            <h4>Hard Skills:</h4>
-            <p>HTML, CSS, JavaScript, Python, Bootstrap | Iniciando os Estudos em Node.js, React e JAVA.</p>
-            <h4>Soft Skills:</h4>
-            <p>Comunicação eficaz, Produtividade, Proatividade, Rápido aprendizado, Comprometimento, Pontualidade,
-                Trabalho em Equipe, Comprometido com o aprimoramento contínuo</p>
-            <p>atualmente estudando para dominar tecnologias
-                essenciais para o desenvolvimento web moderno.
-            <h4>
-                Objetivo Profissional:</h4>
-            <p>Buscando uma oportunidade como Desenvolvedor, onde posso aplicar minha paixão
-                pela tecnologia e minha determinação em aprender e crescer profissionalmente.
-                <br>
-                Estou comprometido em
-                fazer uma transição de carreira bem-sucedida e contribuir de forma significativa para projetos
-                desafiadores.
-                <br>
-                Disponível para: Oportunidades de desenvolvimento web, com foco em frontend, onde posso utilizar
-                minhas
-                habilidades técnicas e minhas soft skills para agregar valor e alcançar resultados excepcionais.
-            </p>
-            </section>
-        </div>
-        <div class="formacao">
-            <section>
-                <h1 id="Formacao">Formação</h1>
-                <ul class="formacao-list">
-                    <li>Tecnologo de Análise e desenvolvimento de Sistemas</li>
-                    <p>Cursando</p>
-                    <li>Ensino medio completo</li>
-                    <p>completo</p>
-                    <li>Curso de Fullstack Devmedia</li>
-                    <p>Cursando</p>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portifolio">Portfólio</a></li>
+                    <li><a href=mailto:welingtonchrystian1@gmail.com id="contato">Contato</a></li>
                 </ul>
-                <section class="Portifolio">
-                    <h1 id="Portifolio">Portifolio</h1>
-                    <a href="https://github.com/JesusChrystian" class="linkPort">Github</a>
-                </section>
-            </section>
-            <section id="contato-formulario" style="display: none;">
-                <h1>Formulário de Contato</h1>
-                <form action="processa_formulario.php" method="post">
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" name="nome" required><br><br>
-    
-                    <label for="assunto">Assunto:</label><br>
-                    <input type="text" id="assunto" name="assunto" required><br><br>
-    
-                    <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
-    
-                    <input type="submit" value="Enviar" class="enviar">
-                </form>
+            </nav>
+        </div> 
+    </header>
+
+    <div id="sobre">
+            <aside class="quemSou">
+                <img src="./src/Assets/eu.svg" alt="Minha Foto de perfil" class="foto-perfil" width="200px">
+                <h1 class="hero-title">Welington Veiga</h1>
+                <p class="hero-text">Desenvolvedor Web</p>
+            </aside>
+            <section  class="sobre-mim">
+
+                <p>Desenvolvedor em Transição de Carreira</p>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas na Uninter</p>
+                <h4>Hard Skills:</h4>
+                <p>HTML, CSS, JavaScript, Python, Bootstrap | Iniciando os Estudos em Node.js, React e JAVA.</p>
+                <h4>Soft Skills:</h4>
+                <p>Comunicação eficaz, Produtividade, Proatividade, Rápido aprendizado, Comprometimento, Pontualidade,
+                    Trabalho em Equipe, Comprometido com o aprimoramento contínuo</p>
+                <h4>Objetivo Profissional:</h4>
+                <p>Buscando uma oportunidade como Desenvolvedor, onde posso aplicar minha paixão
+                    pela tecnologia e minha determinação em aprender e crescer profissionalmente.
+                    <br>Estou comprometido em
+                    fazer uma transição de carreira bem-sucedida e contribuir de forma significativa para projetos
+                    desafiadores.
+                    <br>Disponível para: Oportunidades de desenvolvimento web, com foco em frontend, onde posso utilizar
+                    minhas habilidades técnicas e minhas soft skills para agregar valor e alcançar resultados excepcionais.
+                </p>
             </section>
         </div>
-        <footer>
-            <img src="./src/Assets/LOGO-PRETO 1.svg" alt="Logo" class="logo-fundo">
-            <h1 id="relogio"></h1>
-        </footer>
-        <script src="./script.js"></script>
+    </div>
 
-    </body>
+    <div class="formacao">
+        <section>
+            <h1 id="formacao">Formação</h1>
+            <ul class="formacao-list">
+                <li>Tecnólogo de Análise e Desenvolvimento de Sistemas</li>
+                <p>Cursando</p>
+                <li>Ensino Médio Completo</li>
+                <p>Completo</p>
+                <li>Curso de Fullstack Devmedia</li>
+                <p>Cursando</p>
+            </ul>
+        </section>
+        <section class="portifolio">
+            <h1 id="portifolio">Portfólio</h1>
+            <a href="https://github.com/JesusChrystian" class="linkPort">Github</a>
+        </section>
+    </div>
 
-    </html>
+    <footer>
+        <img src="./src/Assets/LOGO-PRETO 1.svg" alt="Logo" class="logo-fundo">
+        <h1 id="relogio"></h1>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,88 +1,94 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #000000;
-    height: 100%; 
+    height: 100%;
     font-family: "Sedan SC", serif;
-
-   
 }
-a{
+
+a {
     text-decoration: none;
+    color: #4703A6;
+    transition: all 1s linear;
 }
 
-.interface{
+a:hover {
+    color: #ffffd8;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.interface {
     max-width: 1280px;
     margin: 0 auto;
     border-bottom: 1px solid #7503A6;
     box-shadow: 0 0 20px #4703A6;
 }
 
-header{
+header {
     font-family: "Sedan SC", serif;
-    
 }
-header > .interface{
+
+header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 auto;
     padding: 5px;
 }
-a >.logo{
+
+a > .logo {
     width: 150px;
     height: 150px;
-    
 }
+
 .menu-desktop ul {
     display: flex;
 }
-.menu-desktop ul li{
+
+.menu-desktop ul li {
     list-style: none;
-    margin: 0 0 0 20px;
-    
+    margin-left: 20px;
 }
-.menu-desktop ul li a{
-    text-decoration: none;
-    color: #ffffffff;
+
+.menu-desktop ul li a {
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 500;
     opacity: 0.5;
-    font-style: normal;
 }
-.menu-desktop ul li a:hover{
+
+.menu-desktop ul li a:hover {
     color: #ffffff;
-    opacity: 1.5;
+    opacity: 1;
     border-bottom: 1px solid #510273;
-    transition: all 0.5s ease-out;  
-    filter: brightness(2.5);  
-    box-shadow: 0px 2px 5px #4703A6 ;
+    transition: all 0.5s ease-out;
+    filter: brightness(2.5);
+    box-shadow: 0px 2px 5px #4703A6;
     padding: 10px;
     border-radius: 10%;
 }
-    
-/*Estilização Sobre*/
 
-#Sobre{
+/* Estilização Sobre */
+#sobre {
     color: #ffffffd8;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     text-align: center;
     margin: 20px;
     letter-spacing: 2px;
     line-height: 30px;
     font-size: 18px;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    
-
+    width: 100%;
 }
-/*Estilização do Rodape*/
-footer{
+
+/* Estilização do Rodapé */
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,15 +97,15 @@ footer{
     width: 100%;
     height: 10%;
 }
-.formacao-list{
+
+.formacao-list {
     list-style: none;
     font-size: 20px;
     margin: 20px;
-    
-   
 }
-/* estilização Quem sou*/
-.quemSou{
+
+/* Estilização Quem Sou */
+.quemSou {
     display: flex;
     flex-direction: column;
     transition: all 1s ease-in;
@@ -110,71 +116,60 @@ footer{
     text-align: center;
     color: #ffffff8a;
     margin: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
-.foto-perfil{
-    width: 100%;
+
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    height: 100%;
+    
 }
-.content{
-    width: 25%;
-    height: 20%;
-}
-/* estilização Formacao*/
-.formacao{
+
+/* Estilização Formação */
+.formacao {
     color: #ffffffd8;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     text-align: center;
     margin: 20px;
     letter-spacing: 2px;
     line-height: 35px;
     font-size: 18px;
-    align-items:center;
+    align-items: center;
 }
-/* estilização Formacao*/
-#Formacao{
+
+#formacao {
     filter: brightness(2.5);
-
-   
 }
 
-.logo-fundo{
+.logo-fundo {
     width: 10%;
     height: 10%;
     margin: 0 auto;
-    
 }
-.linkPort{
+
+.linkPort {
     color: #4703A6;
 }
-.linkPort:hover{
+
+.linkPort:hover {
     padding: 3px;
     color: #ffffffd8;
-    transition: all 1s ease-in;
     border: 1px solid #4703A6;
     box-shadow: 0px 0px 5px 1px #4703A6;
     border-radius: 7px;
 }
 
-#contato-formulario {
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     margin: 20px;
-    line-height: 20px;
-    padding: 5px;
-    color: #ffffffd8;
-    transition: all 1s linear;
-    border: 1px solid #4703A6;
-    box-shadow: 0px 0px 5px 1px #4703A6;
-    border-radius: 7px;
-}
-.enviar{
-    color: #000000;
-    padding: 3px;
-}
-.enviar:hover{
-    color: #000000;
-    transition: all 1s ease-in;
-    border: 1px solid #4703A6;
-    box-shadow: 0px 0px 5px 1px #4703A6;
-    border-radius: 4px;
-    background-color: #ffffff;
-
+    height: auto;
 }
